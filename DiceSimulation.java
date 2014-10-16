@@ -29,10 +29,6 @@ public class DiceSimulation
 		while (count < NUMBER)
 		    {
 
-			//Get Value of First die
-			die1Value = randomNumbers.nextInt(6);
-			//Get Value of Second die
-			die2Value = randomNumbers.nextInt(6);
 
 		    die1Value = die1.getSpot();
 		    die2Value = die2.getSpot();
